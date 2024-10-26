@@ -1,0 +1,48 @@
+.block {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px;
+  background-color: #f9f9f9; /* Light background for the block */
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Block header styling */
+h3 {
+  color: #4caf50; /* Green for block title */
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Assigning different colors to block components */
+p {
+  margin: 5px 0;
+}
+
+p strong {
+  font-weight: bold;
+  color: #000000; /* Slightly dark grey for labels */
+}
+
+p:nth-of-type(1) {
+  color: #007bff; /* Blue for Timestamp */
+}
+
+p:nth-of-type(2) {
+  color: #ff5722; /* Orange for Nonce */
+}
+
+p:nth-of-type(3) {
+  color: #673ab7; /* Purple for Data */
+}
+
+p:nth-of-type(4) {
+  color: #ff007b; /* Green for Hash */
+}
+
+p:nth-of-type(5) {
+  color: #4c4600; /* Violet for Previous Hash */
+}

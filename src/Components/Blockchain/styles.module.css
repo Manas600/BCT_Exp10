@@ -1,0 +1,27 @@
+.blockchain {
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.chain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
